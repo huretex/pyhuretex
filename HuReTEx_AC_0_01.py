@@ -254,5 +254,7 @@ class BirchClustering(implements(ArtifactClusteringInterface)):
 
         # X_with_labels = pd.DataFrame(self.X)
         # X_with_labels["cluster BIRCH"] = best_labels
+        
+        print(best_k)
 
         self.labels_ = best_labels
